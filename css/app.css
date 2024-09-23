@@ -224,6 +224,25 @@ footer .col-16{
     padding-bottom: 30px;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.wave{
+    width: 100%;
+    filter: opacity(0.04);
+}
+
+.wave.reverse{
+    transform: rotate(180deg);
+}
+
+.section-wave{
+    display: flex;
+    flex-direction: column;
+}
+
 /* utilities */
 
 .bg-blue-image{
