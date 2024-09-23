@@ -131,7 +131,7 @@ h1{
 }
 
 h3{
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .new-adventure{
@@ -156,6 +156,40 @@ h3{
 
 .flex-column-center{
     padding-bottom: 60px;
+}
+
+.language{
+    gap: 5px;
+    align-items: center;
+}
+
+.ul-language::after{
+    content: '\2304';
+}
+
+.language img{
+    height: 15px;
+}
+
+.icone{
+    gap: 15px;
+}
+
+.icone-social{
+    height: 15px;
+}
+
+.px25{
+    height: 25px;
+    align-self: top;
+}
+
+.col-33 > *{
+    padding-bottom: 15px;
+}
+
+.col-33 h3{
+    line-height: 35px;
 }
 
 footer > :first-child{
