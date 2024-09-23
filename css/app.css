@@ -132,7 +132,13 @@ h1{
 
 h3{
     font-size: 30px;
-    margin-bottom: 30px;
+}
+
+.new-adventure{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 40px 50px;
 }
 
 .hero p{
@@ -148,12 +154,8 @@ h3{
     flex-direction: row-reverse;
 }
 
-.flex-column-center img{
-    margin-bottom: 40px;
-}
-
 .flex-column-center{
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 footer > :first-child{
@@ -185,7 +187,7 @@ footer > :first-child{
 }
 
 .bg-black{
-    background-color: rgb(35, 39, 42);
+    background-color: rgba(35,39,42,255);
 }
 
 .bg-salmon{
