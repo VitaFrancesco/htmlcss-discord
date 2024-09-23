@@ -46,9 +46,13 @@ a[class*="cta"]{
     border-radius: 70px;
 }
 
-.cta-download{
-    background-color: white;
+.hero .cta-download{
     color: black;
+}
+
+.flex-column-center .cta-download{
+    background-color: rgba(114,137,218,255);
+    color: white;
 }
 
 .cta-download::before{
@@ -126,6 +130,11 @@ h1{
     font-size: 50px;
 }
 
+h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
 .hero p{
     text-align: center;
 }
@@ -137,6 +146,14 @@ h1{
 
 .row.reverse{
     flex-direction: row-reverse;
+}
+
+.flex-column-center img{
+    margin-bottom: 40px;
+}
+
+.flex-column-center{
+    padding-bottom: 50px;
 }
 
 footer > :first-child{
@@ -159,24 +176,12 @@ footer > :first-child{
     background-color: rgba(37,94,233,255);
 }
 
-.bg-clear-blue{
-    background-color: rgb(30, 144, 255);
-}
-
-.bg-pink{
-    background-color: rgb(255, 192, 203);
-}
-
 .bg-white{
     background-color: white;
 }
 
 .bg-gray{
     background-color: rgba(246,246,246,255);
-}
-
-.bg-dark-green{
-    background-color: rgb(34, 139, 34);
 }
 
 .bg-black{
@@ -205,6 +210,13 @@ footer > :first-child{
 
 .padding-top-22{
     padding-top: 22px;
+}
+
+.flex-column-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 /* debug rules */
