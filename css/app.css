@@ -192,8 +192,26 @@ h3{
     line-height: 35px;
 }
 
+.row-column{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer h4, h3{
+    color: rgba(114,137,218,255);
+}
+
 footer > :first-child{
     padding: 3px 0 20px;
+}
+
+footer .col-33{
+    padding-top: 30px;
+}
+
+footer .col-16{
+    padding-top: 25px;
 }
 
 .footer-menu{
@@ -222,14 +240,6 @@ footer > :first-child{
 
 .bg-black{
     background-color: rgba(35,39,42,255);
-}
-
-.bg-salmon{
-    background-color: rgb(240, 128, 128);
-}
-
-.bg-jar-blue{
-    background-color: rgb(32, 178, 170);
 }
 
 .bg-matt-pink{
