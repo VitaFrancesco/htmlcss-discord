@@ -36,13 +36,24 @@ header{
     align-items: center;
 }
 
+.header-cta{
+    color: black;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 70px;
+}
+
 .main-menu{
     display: flex;
     gap: 10px;
 }
 
-.section{
+.section, .hero{
     padding: 20px 0;
+}
+
+header, .hero, footer{
+    color: white;
 }
 
 .container.small{
@@ -90,11 +101,8 @@ footer > :first-child{
 
 /* utilities */
 
-.bg-light-blue{
-    background-color: rgb(173, 216, 230);
-}
-.bg-orange{
-    background-color: rgb(218, 165, 32);
+.bg-blue-image{
+    background-color: rgba(37,94,233,255);
 }
 
 .bg-mamie-pink{
