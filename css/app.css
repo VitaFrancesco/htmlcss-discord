@@ -51,7 +51,6 @@ a[class*="cta"]{
 }
 
 .flex-column-center .cta-download{
-    background-color: rgba(114,137,218,255);
     color: white;
 }
 
@@ -216,12 +215,13 @@ footer .col-16{
 
 .footer-menu{
     padding: 15px 0 0;
-    border-top: white solid 1px;
 }
 
 .footer-menu nav{
     padding-left: 0;
     padding-right: 0;
+    border-top: rgba(114,137,218,255) solid 1px;
+    padding-bottom: 30px;
 }
 
 /* utilities */
@@ -242,12 +242,8 @@ footer .col-16{
     background-color: rgba(35,39,42,255);
 }
 
-.bg-matt-pink{
-    background-color: rgb(255, 182, 193);
-}
-
-.bg-acquamarine{
-    background-color: rgb(127, 255, 212);
+.bg-clear-blue{
+    background-color: rgba(114,137,218,255);
 }
 
 .padding-top-27{
