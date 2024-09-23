@@ -36,11 +36,28 @@ header{
     align-items: center;
 }
 
-.header-cta{
+.cta-header{
     color: black;
     background-color: white;
+}
+
+a[class*="cta"]{
     padding: 8px 15px;
     border-radius: 70px;
+}
+
+.cta-download{
+    background-color: white;
+    color: black;
+}
+
+.cta-download::before{
+    content: ' \2193';
+}
+
+.cta-link-browser{
+    background-color: black;
+    color: white;
 }
 
 .main-menu{
@@ -56,8 +73,20 @@ header, .hero, footer{
     color: white;
 }
 
+.hero{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+}
+
 .container.small{
     max-width: 570px;
+}
+
+.hero .row{
+    align-items: center;
+    justify-content: center;
 }
 
 .row{
@@ -79,6 +108,24 @@ header, .hero, footer{
 
 .col-16{
     width: calc(100% / 6);
+}
+
+h1, h2{
+    font-size: 50px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.hero p{
+    text-align: center;
+}
+
+.interaction{
+    padding: 15px;
+    gap: 20px;
 }
 
 .row.reverse{
@@ -103,14 +150,6 @@ footer > :first-child{
 
 .bg-blue-image{
     background-color: rgba(37,94,233,255);
-}
-
-.bg-mamie-pink{
-    background-color: rgb(238, 130, 238);
-}
-
-.bg-blue{
-    background-color: rgb(0, 0, 139);
 }
 
 .bg-clear-blue{
