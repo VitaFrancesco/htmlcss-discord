@@ -172,7 +172,7 @@ footer > :first-child{
 }
 
 .bg-gray{
-    background-color: rgb(211, 211, 211);
+    background-color: rgba(246,246,246,255);
 }
 
 .bg-dark-green{
@@ -201,6 +201,10 @@ footer > :first-child{
 
 .padding-top-27{
     padding-top: 27px;
+}
+
+.padding-top-22{
+    padding-top: 22px;
 }
 
 /* debug rules */
