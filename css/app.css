@@ -36,6 +36,10 @@ header{
     align-items: center;
 }
 
+.logo img{
+    display: block;
+}
+
 .cta-header{
     color: black;
     background-color: white;
